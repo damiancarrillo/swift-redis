@@ -10,6 +10,6 @@ let package = Package(
       Target(name: "hiredis")
     ],
     dependencies: [
-        .Package(url: "https://github.com/swizzlr/CHiRedis.git", majorVersion: 1),
+        .Package(url: "https://github.com/damiancarrillo/CHiRedis.git", majorVersion: 1),
     ]
 )
